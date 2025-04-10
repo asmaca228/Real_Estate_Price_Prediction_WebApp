@@ -1,4 +1,4 @@
-
+![Image](https://github.com/user-attachments/assets/3c0db88b-d974-474e-9c89-38fc151618d2)
 # 🏡 Real Estate Price Prediction Website
 
 This repository showcases a real estate price prediction project that I built from scratch. It walks through the complete data science workflow—from building a machine learning model to deploying it with a user-friendly web interface.
