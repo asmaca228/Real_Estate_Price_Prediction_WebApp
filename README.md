@@ -1,1 +1,2 @@
-
+This repository showcases a full-stack real estate price prediction project that I built from scratch. It walks through the complete data science workflow—from building a machine learning model to deploying it with a user-friendly web interface.
+The model predicts housing prices in Bangalore, based on parameters such as area (in square feet), number of bedrooms, and location. It uses a dataset sourced from Kaggle.
