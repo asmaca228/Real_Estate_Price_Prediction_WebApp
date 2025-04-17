@@ -48,7 +48,7 @@ The interface allows users to:
 
 The UI makes an API call to the Flask backend and displays the result dynamically
 
-📂**Technologies Used**
+## Technologies Used
 
 - Python
 
