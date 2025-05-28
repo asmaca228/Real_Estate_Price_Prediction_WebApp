@@ -2,7 +2,7 @@
 - This project is a web application that predicts housing prices in Bangalore based on parameters such as location, area, and amenities. The backend uses a Random Forest regression model, while the frontend is built with HTML, CSS, and JavaScript, integrated seamlessly using Flask to deliver real-time price predictions.
   
 ![Image](https://github.com/user-attachments/assets/3c0db88b-d974-474e-9c89-38fc151618d2)
-## Descrption
+## Description
 
 - The app allows users to input property details and get estimated prices instantly. It demonstrates an end-to-end data science workflow—from model training on a Kaggle dataset to deployment with a user-friendly web interface powered by Flask.
 
