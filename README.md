@@ -1,67 +1,56 @@
+# Real Estate Price Prediction Web App
+- This project is a web application that predicts housing prices in Bangalore based on parameters such as location, area, and amenities. The backend uses a Random Forest regression model, while the frontend is built with HTML, CSS, and JavaScript, integrated seamlessly using Flask to deliver real-time price predictions.
+  
 ![Image](https://github.com/user-attachments/assets/3c0db88b-d974-474e-9c89-38fc151618d2)
-# Real Estate Price Prediction Website
+## Descrption
 
-This repository showcases a real estate price prediction project that I built from scratch. It walks through the complete data science workflow—from building a machine learning model to deploying it with a user-friendly web interface.
-The model predicts housing prices in Bangalore, based on parameters such as area (in square feet), number of bedrooms, and location. It uses a dataset sourced from Kaggle.
+- The app allows users to input property details and get estimated prices instantly. It demonstrates an end-to-end data science workflow—from model training on a Kaggle dataset to deployment with a user-friendly web interface powered by Flask.
 
- ## Project Structure
+ ## Technologies & Libraries Used
+ 
+- Python – Core programming language
+  
+- Flask – Web framework to deploy the ML model
+  
+- Scikit-learn – For model building (Random Forest)
+  
+- Pandas, NumPy – Data manipulation and preprocessing
+  
+- Matplotlib – Visualization during EDA
+  
+- HTML / CSS / JavaScript – Frontend development
+  
+- Jupyter Notebook – For model development and experimentation
+  
+- Visual Studio Code – Code editor used for development
 
-**1. Model Building with Scikit-Learn**
+## Installation
 
-Dataset: Bangalore Home Prices (from Kaggle)
+### Prerequisites
+- Python 3.7
+- Basic command line knowledge
 
-Process:
+### Steps
 
-- Data loading and preprocessing
+#### 1. Clone the repository:
+`git clone https://github.com/asmaca228/Real_Estate_Price_Prediction_WebApp.git`
 
-- Outlier detection and removal
+#### 2. Create and activate a virtual environment (recommended):
+- `python -m venv venv`
+- `source venv/bin/activate` for Mac and `venv\Scripts\activate` for Windows
 
-- Feature engineering
+#### 3. Navigate to the project directory:
+`cd BHP`
 
-- Dimensionality reduction
+#### 4. Install dependencies:
+`pip install -r requirements.txt`
 
-- Model training using Linear Regression
+#### 5. Run the Flask server:
+`python server.py`
 
-- GridSearchCV for hyperparameter tuning
+#### 6. Open your web browser and go to the URL printed in the terminal (e.g., http://127.0.0.1:5000) to use the app.
 
-- K-Fold Cross Validation for performance evaluation
 
-**2. Backend API with Flask**
 
-- Built a Flask server to serve the trained ML model
 
-- The server exposes a REST API that takes user inputs (square feet, location, BHK) and returns the predicted price
 
-- Model is serialized using joblib for efficient loading
-
-**3. Frontend UI**
-
-Developed a website using HTML, CSS, and JavaScript
-
-The interface allows users to:
-
-- Select the location
-
-- Enter the square footage and number of bedrooms
-
-- Click a button to get the predicted home price
-
-The UI makes an API call to the Flask backend and displays the result dynamically
-
-## Technologies Used
-
-- Python
-
-- Pandas, NumPy
-
-- Matplotlib
-
-- Scikit-learn
-
-- Flask
-
-- HTML / CSS / JavaScript
-
-- Jupyter Notebook
-
-- VS Code 
